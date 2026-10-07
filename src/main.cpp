@@ -16,7 +16,7 @@ namespace {
 	constexpr Resource RESOURCES[] = {
 		{"Mana Orbs", "14", 200000},
 		{"Diamonds", "13", 50000},
-		{"Gold Keys", "21", 19},
+		{"Gold Keys", "21", 5000},
 	};
 
 	// true  = solo sube: si ya tienes mas que el valor indicado, no lo toca.
@@ -24,7 +24,7 @@ namespace {
 	constexpr bool NEVER_LOWER = false;
 
 	// true = escribe en el log los stats 1..40 (solo lectura) para identificar IDs.
-	constexpr bool DUMP_STATS = false;
+	constexpr bool DUMP_STATS = true;
 }
 
 class $modify(AutoBotMenuLayer, MenuLayer) {
