@@ -14,9 +14,10 @@ namespace {
 
 	// IDs deducidos (no hay lista oficial). Si alguno no coincide, solo cambia statId aqui.
 	constexpr Resource RESOURCES[] = {
-		{"Mana Orbs", "14", 200000},
+		{"Mana Orbs", "14", 3000000},
 		{"Diamonds", "13", 50000},
-		{"Gold Keys", "21", 5000},
+		{"Demon Keys", "21", 5000},
+        {"Diamond Shards", "28", 5000},  // Diamantes pequeños / Esquirlas para la tienda
 	};
 
 	// true  = solo sube: si ya tienes mas que el valor indicado, no lo toca.
