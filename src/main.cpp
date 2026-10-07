@@ -16,8 +16,12 @@ namespace {
 	constexpr Resource RESOURCES[] = {
 		{"Mana Orbs", "14", 3000000},
 		{"Diamonds", "13", 50000},
-		{"Demon Keys", "21", 5000},
-        {"Diamond Shards", "29", 5000},  // Diamantes pequeños / Esquirlas para la tienda
+		{"Demon Keys", "21", 4999},
+		{"Diamond Shards", "29", 20000},
+		{"Moons", "28", 1000},          // 1,000 Lunas
+		{"Fire Shards", "15", 100},       // 100 Fragmentos de Fuego
+		{"Ice Shards", "16", 100},        // 100 Fragmentos de Hielo
+		{"Poison Shards", "17", 100}     // 100 Fragmentos de Posion
 	};
 
 	// true  = solo sube: si ya tienes mas que el valor indicado, no lo toca.
