@@ -17,7 +17,7 @@ namespace {
 		{"Mana Orbs", "14", 3000000},
 		{"Diamonds", "13", 50000},
 		{"Demon Keys", "21", 5000},
-        {"Diamond Shards", "28", 5000},  // Diamantes pequeños / Esquirlas para la tienda
+        {"Diamond Shards", "29", 5000},  // Diamantes pequeños / Esquirlas para la tienda
 	};
 
 	// true  = solo sube: si ya tienes mas que el valor indicado, no lo toca.
